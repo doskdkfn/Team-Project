@@ -1,0 +1,83 @@
+#new-day {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    column-gap: 8.4rem;
+    margin-top: 60px;
+}
+
+.date > li {
+    display: block;
+    width: 65px;
+    background: rgb(41, 81, 192);
+    padding: 20px 0 20px 0;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/******************** aniimg-list-style *******************/
+
+#dayz-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    column-gap: 5rem;
+    margin-right: 9px;
+    
+}
+
+.day {
+    text-align: left;
+}
+
+.day > li {
+    width: 120px;
+    height: 233px;
+    transition-duration: .4s;
+}
+
+.day > li:hover {
+    transform: scale(1.1);
+}
+
+.day > li > h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.day > li > h3 {
+    color: rgb(255, 251, 0);
+    padding: 5px 0 5px 0;
+}
+
+.day img {
+    width: 130px;
+    height: 180px;
+}
+
+
+/* #banner {
+    width: 250px;
+    height: 618px;
+    background: #fff;
+    position: relative;
+    top: 488px;
+    left: 65px;
+    overflow: hidden;
+}
+
+#banner > a {
+    position: absolute;
+}
+
+#banner > a:first-child {
+    display: block;
+} */
