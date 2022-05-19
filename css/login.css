@@ -1,0 +1,63 @@
+#back {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-size: auto 100%;
+    height: 935px;
+    background-repeat: repeat;
+    animation: 100s linear 0s infinite normal none running eusulA;
+}
+
+#login-box {
+    background:rgba(0, 0, 0, 0.8);
+    width: 1920px;
+    height: 937px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login-box {
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 340px;
+}
+
+.login-box a {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.login-box p {
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.mail-login {
+    background: rgb(47, 94, 223);
+    padding: 15px;
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 50px;
+}
+
+.mail-login a {
+    font-size: 20px;
+}
+
+.login-box > li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.login-box > li > a {
+    font-size: 15px;
+    padding: 20px;
+}

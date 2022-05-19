@@ -19,11 +19,18 @@ body {
     font-size: 12px;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
-    background-color: black;
+    /* background-color: black; */
     position: relative;
 }
 
 /********************** header style *************************/
+
+#mv-back {
+    background: #000;
+    height: 1095px;
+    overflow: hidden;
+}
+
 .mv-box {
     position: absolute;
     width: 100%;
